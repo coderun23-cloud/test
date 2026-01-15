@@ -4,7 +4,7 @@
     connection: local
     gather_facts: no
     tasks:
-    - name: Say hello
+    - name: First working AWX so its gonna be lit and awesome
       debug:
         msg: "Hello World! AWX is working."
 
