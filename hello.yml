@@ -1,0 +1,17 @@
+---
+  - name: Hello World from AWX
+    hosts: localhost
+    connection: local
+    gather_facts: no
+    tasks:
+    - name: Say hello
+      debug:
+        msg: "Hello World! AWX is working."
+
+
+
+
+
+
+
+
