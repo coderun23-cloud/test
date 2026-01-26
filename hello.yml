@@ -1,10 +1,10 @@
 ---
-  - name: Hello World from AWX i only managed to do hello world beside that i cant because when i want to configure network device it become difficult and unbearable!
+  - name: Hello World from AWX 
     hosts: localhost
     connection: local
     gather_facts: no
     tasks:
-    - name: First working AWX so its gonna be lit and awesome
+    - name: First working AWX so its gonna be lit and awesome however, i only managed to do hello world beside that i cant because when i want to configure network device it become difficult and unbearable!
       debug:
         msg: "Hello World! AWX is working."
 
