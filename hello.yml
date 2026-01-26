@@ -1,5 +1,5 @@
 ---
-  - name: Hello World from AWX
+  - name: Hello World from AWX i only managed to do hello world beside that i cant because when i want to configure network device it become difficult and unbearable!
     hosts: localhost
     connection: local
     gather_facts: no
