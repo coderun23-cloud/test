@@ -4,9 +4,9 @@
     connection: local
     gather_facts: no
     tasks:
-    - name: First working AWX so its gonna be lit and awesome however, i only managed to do hello world beside that i cant because when i want to configure network device it become difficult and unbearable!
+    - name: First working AWX so its gonna be lit and awesome 
       debug:
-        msg: "Hello World! AWX is working."
+        msg: "Hello World! AWX is working however, i only managed to do hello world beside that i cant because when i want to configure network device it become difficult and unbearable!."
 
 
 
