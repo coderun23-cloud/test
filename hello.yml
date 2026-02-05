@@ -1,12 +1,31 @@
 ---
-  - name: Hello World from AWX 
-    hosts: localhost
-    connection: local
-    gather_facts: no
-    tasks:
-    - name: First working AWX so its gonna be lit and awesome 
+- name: NetBox Connection Test
+  hosts: all
+  gather_facts: false
+  connection: local
+
+  tasks:
+    - name: Hello AWX and Netbox
       debug:
-        msg: "Hello World! AWX is working.And we used Netbox as the source of truth"
+        msg: "Hello World AWX and Netbox are powerful together!"
+
+    - name: Display a Greeting from NetBox
+      debug:
+        msg: "Hello World! Ansible found device '{{ inventory_hostname }}' in NetBox."
+
+    - name: Show Device Details
+      debug:
+        msg: "This device is at IP {{ ansible_host }} and has status {{ status.label }}."
+
+
+
+
+
+
+
+
+
+
 
 
 
