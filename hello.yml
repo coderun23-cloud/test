@@ -6,7 +6,7 @@
     tasks:
     - name: First working AWX so its gonna be lit and awesome 
       debug:
-        msg: "Hello World! AWX is working however, i only managed to do hello world beside that i cant because when i want to configure network device it become difficult and unbearable!."
+        msg: "Hello World! AWX is working.And we used Netbox as the source of truth"
 
 
 
